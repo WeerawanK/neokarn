@@ -6,13 +6,14 @@ int main(){
     int j = 0;
     int N=1;
     
-    int Even[i] ;
-    int odd[j] ;
     
     
     while(N != 0){
     cout << "Enter an integer: ";
     cin >> N;
+    if(N == 0){
+        i--;
+    }
     if( N%2 == 0){
             i++;
             
